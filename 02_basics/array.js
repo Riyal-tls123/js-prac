@@ -16,8 +16,20 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(9)); -> element na thkle output -1 dey
 
-const newArr = myArr.join()
+// const newArr = myArr.join() -> joins the elements together and turns them into string data type
 
 
 // console.log(typeof myArr);
-// console.log(typeof newArr); -> joins the elements together and turns them into string data type
+// console.log(typeof newArr); 
+
+
+console.log("A", myArr );
+
+const myn1 = myArr.slice(1, 3)
+
+console.log(myn1);
+console.log("B", myArr);
+
+const myn2 = myArr.splice(1, 3)
+console.log("C", myArr);
+console.log(myn2);
